@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +7,23 @@
 }
 
 :root {
-    --color-primary: #1a472a;
-    --color-accent: #d4823f;
-    --color-light: #f5f3f0;
-    --color-text: #2c2c2c;
-    --color-border: #ddd;
-    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-serif: Georgia, 'Times New Roman', serif;
+    /* Blackwater biotope palette — tannin-stained water, leaf litter, iridescent cichlid color */
+    --void: #14100c;
+    --tannin: #2a2015;
+    --tannin-light: #3a2c1c;
+    --parchment: #efe6d3;
+    --parchment-dim: #e4d8bd;
+    --ink: #241a12;
+    --ink-soft: #5c4f3f;
+    --teal: #3f8f9c;
+    --teal-deep: #2c6570;
+    --flame: #d9662c;
+    --flame-deep: #b04d1c;
+    --border-soft: rgba(36, 26, 18, 0.14);
+
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Work Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'Space Mono', 'Courier New', monospace;
 }
 
 html {
@@ -19,26 +31,30 @@ html {
 }
 
 body {
-    font-family: var(--font-sans);
+    font-family: var(--font-body);
     line-height: 1.6;
-    color: var(--color-text);
-    background: white;
+    color: var(--ink);
+    background: var(--parchment);
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
+a {
+    color: inherit;
+}
+
 /* Navigation */
 .navbar {
-    background: var(--color-primary);
-    padding: 1rem 0;
+    background: var(--void);
+    padding: 1.1rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(239, 230, 211, 0.08);
 }
 
 .navbar .container {
@@ -48,10 +64,11 @@ body {
 }
 
 .logo {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: white;
-    font-style: italic;
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--parchment);
+    letter-spacing: 0.01em;
 }
 
 .nav-links {
@@ -61,197 +78,267 @@ body {
 }
 
 .nav-links a {
-    color: white;
+    color: var(--parchment-dim);
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    font-weight: 500;
     transition: color 0.2s;
 }
 
 .nav-links a:hover {
-    color: var(--color-accent);
+    color: var(--flame);
 }
 
-/* Hero */
+/* Hero — full-bleed specimen photograph, editorial left-aligned label */
 .hero {
-    background: linear-gradient(135deg, var(--color-primary), #0d2d1a);
-    color: white;
-    padding: 4rem 2rem;
-    text-align: center;
+    position: relative;
+    color: var(--parchment);
+    padding: 6rem 0 4.5rem;
+    background: linear-gradient(180deg, rgba(20, 16, 12, 0.55) 0%, rgba(20, 16, 12, 0.88) 100%),
+                url('https://upload.wikimedia.org/wikipedia/commons/f/ff/cacatuoides.jpg') center 30% / cover no-repeat;
+    background-color: var(--void);
+    text-align: left;
+}
+
+.hero .container {
+    max-width: 720px;
+}
+
+.hero .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--teal);
+    display: block;
+    margin-bottom: 1.1rem;
+    letter-spacing: 0.02em;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
+    font-family: var(--font-display);
+    font-size: 3.1rem;
+    line-height: 1.05;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-optical-sizing: auto;
 }
 
 .hero .tagline {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    opacity: 0.95;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.15rem;
+    margin-bottom: 2.2rem;
+    color: var(--parchment-dim);
+    max-width: 34rem;
+}
+
+.hero .photo-credit {
+    position: absolute;
+    bottom: 0.9rem;
+    right: 1.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: rgba(239, 230, 211, 0.55);
+}
+
+.hero .photo-credit a {
+    color: rgba(239, 230, 211, 0.75);
 }
 
 /* CTA Buttons */
 .cta-buttons {
     display: flex;
     gap: 1rem;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 .btn {
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
+    padding: 0.8rem 1.6rem;
     text-decoration: none;
     font-weight: 600;
-    transition: all 0.2s;
+    font-size: 0.95rem;
+    transition: all 0.15s;
     display: inline-block;
+    border: 1.5px solid transparent;
 }
 
 .btn-primary {
-    background: var(--color-accent);
-    color: white;
+    background: var(--flame);
+    color: var(--void);
 }
 
 .btn-primary:hover {
-    background: #c67036;
-    transform: translateY(-2px);
+    background: var(--flame-deep);
 }
 
 .btn-secondary {
-    background: white;
-    color: var(--color-primary);
+    background: transparent;
+    color: var(--parchment);
+    border-color: rgba(239, 230, 211, 0.4);
 }
 
 .btn-secondary:hover {
-    background: var(--color-light);
-    transform: translateY(-2px);
+    border-color: var(--parchment);
+    background: rgba(239, 230, 211, 0.08);
 }
 
 /* Main Content */
 main {
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 h2 {
-    font-size: 1.8rem;
-    color: var(--color-primary);
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-}
-
-h3 {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    color: var(--color-primary);
-}
-
-section {
-    margin-bottom: 3rem;
-}
-
-.intro {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: #444;
-}
-
-.intro p {
-    margin-bottom: 1rem;
-}
-
-/* Pillars Grid */
-.pillars {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 2rem;
-    margin-bottom: 3rem;
-}
-
-.pillar {
-    background: var(--color-light);
-    padding: 1.5rem;
-    border-radius: 6px;
-    border-left: 4px solid var(--color-accent);
-}
-
-.pillar h3 {
-    margin-bottom: 0.8rem;
-}
-
-.pillar a {
-    color: var(--color-primary);
-    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    color: var(--ink);
+    margin-bottom: 1.3rem;
     font-weight: 600;
 }
 
-.pillar a:hover {
-    color: var(--color-accent);
+h3 {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+    color: var(--ink);
+    font-weight: 600;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+.intro {
+    max-width: 62ch;
+}
+
+.intro p {
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: var(--ink-soft);
+    margin-bottom: 1rem;
+}
+
+/* Pillars — specimen list, not identical cards */
+.pillars {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border-soft);
+}
+
+.pillar {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+    padding: 1.8rem 0;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+.pillar h3 a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--teal);
+}
+
+.pillar h3 a:hover {
+    color: var(--teal-deep);
 }
 
 .pillar p {
-    color: #555;
-    font-size: 0.95rem;
+    color: var(--ink-soft);
+    font-size: 0.98rem;
+    max-width: 52ch;
 }
 
 /* Species Grid */
 .species-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
 }
 
 .species-card {
-    border: 1px solid var(--color-border);
-    padding: 1.5rem;
-    border-radius: 6px;
-    transition: all 0.2s;
+    border-top: 3px solid var(--teal);
+    background: var(--parchment-dim);
+    transition: transform 0.15s;
+    padding: 1.4rem;
 }
 
-.species-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    border-color: var(--color-accent);
+.species-card.has-photo {
+    border-top-color: var(--flame);
+}
+
+.species-card .thumb {
+    width: calc(100% + 2.8rem);
+    margin: -1.4rem -1.4rem 1.2rem;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+}
+
+.species-card .swatch {
+    width: calc(100% + 2.8rem);
+    margin: -1.4rem -1.4rem 1.2rem;
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.species-card .swatch .sci-name {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.9);
+}
+
+.species-card .body {
+    padding: 0;
+}
+
+.species-card .sci-name-small {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--teal-deep);
+    display: block;
+    margin-bottom: 0.4rem;
 }
 
 .species-card h3 {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.15rem;
 }
 
 .species-card h3 a {
-    color: var(--color-primary);
+    color: var(--ink);
     text-decoration: none;
 }
 
 .species-card h3 a:hover {
-    color: var(--color-accent);
+    color: var(--flame-deep);
 }
 
 .species-card p {
-    color: #555;
-    font-size: 0.95rem;
+    color: var(--ink-soft);
+    font-size: 0.94rem;
 }
 
 .species-card strong {
-    color: var(--color-accent);
+    color: var(--flame-deep);
 }
 
 /* CTA Footer */
 .cta-footer {
-    background: var(--color-light);
-    padding: 2rem;
-    border-radius: 6px;
-    text-align: center;
+    background: var(--tannin);
+    color: var(--parchment);
+    padding: 2.5rem;
 }
 
 .cta-footer h2 {
-    color: var(--color-primary);
+    color: var(--parchment);
+}
+
+.cta-footer p {
+    color: var(--parchment-dim);
 }
 
 .cta-footer a {
-    color: var(--color-accent);
+    color: var(--flame);
     text-decoration: none;
     font-weight: 600;
 }
@@ -262,81 +349,108 @@ section {
 
 /* Footer */
 .footer {
-    background: var(--color-primary);
-    color: white;
-    padding: 2rem 0;
-    margin-top: 3rem;
+    background: var(--void);
+    color: var(--parchment-dim);
+    padding: 2.5rem 0;
 }
 
 .footer .container {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .footer p {
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-    opacity: 0.9;
+    font-size: 0.88rem;
+    opacity: 0.85;
 }
 
 .footer-links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+    gap: 1.4rem;
     flex-wrap: wrap;
-    margin-top: 1rem;
 }
 
 .footer-links a {
-    color: white;
+    color: var(--parchment-dim);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     transition: color 0.2s;
 }
 
 .footer-links a:hover {
-    color: var(--color-accent);
+    color: var(--flame);
+}
+
+/* Species page color banner — used when no verified photograph is available */
+.species-hero {
+    margin: 0 calc(-50vw + 50%);
+    padding: 3.5rem 2rem;
+    color: var(--parchment);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 220px;
+}
+
+.species-hero .sci-name {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 0.3rem;
+}
+
+.species-hero h1 {
+    font-family: var(--font-display);
+    font-size: 2.4rem;
+    color: var(--parchment);
+    margin: 0;
 }
 
 /* Typography for Content Pages */
 .content {
-    max-width: 850px;
+    max-width: 72ch;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .content h1 {
-    font-size: 2rem;
-    color: var(--color-primary);
-    margin-bottom: 0.5rem;
-    font-weight: 700;
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+    font-weight: 600;
 }
 
 .content .meta {
-    color: #999;
-    font-size: 0.9rem;
+    font-family: var(--font-mono);
+    color: var(--ink-soft);
+    font-size: 0.82rem;
     margin-bottom: 2rem;
 }
 
 .content h2 {
-    margin-top: 2rem;
+    margin-top: 2.4rem;
     margin-bottom: 1rem;
-    padding-top: 1rem;
-    border-top: 2px solid var(--color-light);
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--border-soft);
 }
 
 .content h3 {
-    margin-top: 1.5rem;
+    margin-top: 1.6rem;
 }
 
 .content p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     line-height: 1.8;
 }
 
 .content ul, .content ol {
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-left: 1.6rem;
+    margin-bottom: 1.1rem;
 }
 
 .content li {
@@ -344,50 +458,74 @@ section {
 }
 
 .content strong {
-    color: var(--color-primary);
+    color: var(--flame-deep);
     font-weight: 600;
 }
 
 .content em {
     font-style: italic;
-    color: #555;
+    color: var(--ink-soft);
+}
+
+.content figure {
+    margin: 2rem 0;
+}
+
+.content figure img {
+    width: 100%;
+    display: block;
+    border-top: 3px solid var(--teal);
+}
+
+.content figcaption {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+    margin-top: 0.6rem;
+}
+
+.content figcaption a {
+    color: var(--teal-deep);
 }
 
 .specs-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1.5rem 0;
-    background: var(--color-light);
+    margin: 1.7rem 0;
 }
 
 .specs-table th {
-    background: var(--color-primary);
-    color: white;
-    padding: 0.8rem;
+    background: var(--tannin);
+    color: var(--parchment);
+    padding: 0.8rem 1rem;
     text-align: left;
     font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .specs-table td {
-    padding: 0.8rem;
-    border-bottom: 1px solid #ddd;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--border-soft);
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
 }
 
-.specs-table tr:last-child td {
-    border-bottom: none;
+.specs-table tr:nth-child(odd) td {
+    background: var(--parchment-dim);
 }
 
 .callout {
-    background: #fef4e8;
-    border-left: 4px solid var(--color-accent);
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: 4px;
+    background: var(--parchment-dim);
+    border-left: 3px solid var(--flame);
+    padding: 1.5rem 1.7rem;
+    margin: 1.7rem 0;
 }
 
 .callout strong {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
 }
 
 /* Responsive */
@@ -396,29 +534,30 @@ section {
         gap: 1rem;
         font-size: 0.85rem;
     }
-    
-    .hero h1 {
-        font-size: 1.8rem;
+
+    .hero {
+        padding: 4rem 0 3rem;
     }
-    
+
+    .hero h1 {
+        font-size: 2.1rem;
+    }
+
     .hero .tagline {
         font-size: 1rem;
     }
-    
-    .cta-buttons {
-        flex-direction: column;
-    }
-    
-    .btn {
-        width: 100%;
-        text-align: center;
-    }
-    
-    h2 {
-        font-size: 1.4rem;
-    }
-    
-    .species-grid {
+
+    .pillar {
         grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
     }
 }
