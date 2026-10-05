@@ -18,10 +18,40 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Dwarf Cichlid Care Fundamentals",
-        "url": "https://www.apistogrammarama.com/care/",
-        "description": "Complete care guides for keeping apistogramma healthy"
+        "@graph": [
+            {
+                "@type": "CollectionPage",
+                "name": "Dwarf Cichlid Care Fundamentals",
+                "url": "https://www.apistogrammarama.com/care/",
+                "description": "Complete care guides for keeping apistogramma healthy"
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://www.apistogrammarama.com/care/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What's the single most important thing for keeping Apistogramma alive?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Soft, stable water chemistry matched to the species you're keeping. More apistos are lost to wrong or swinging parameters than to disease, which is why the water parameters and water quality guides come first in the reading order below." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do all Apistogramma species need the exact same water parameters?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No. Requirements range from relatively flexible species like macmasteri, hongsloi, and domestic-bred cacatuoides, which tolerate pH into the high 6s, to extreme blackwater specialists like baenschi and elizabethae that need pH as low as 4.0 and hardness down to 1 dGH. Always check the specific species page." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can beginners keep Apistogramma?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, starting with a forgiving species like cacatuoides. It tolerates a wider parameter range than most of the genus, is widely available, and breeds readily in a 20-gallon long, which makes it the standard first apisto." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How often should I do water changes for Apistogramma?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "30 to 50% weekly is the standard baseline for this genus. See the water quality guide for when to test more often and how to read the results." }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 </head>
@@ -45,7 +75,7 @@
         <h1>Dwarf Cichlid Care Fundamentals</h1>
         <p class="meta">Everything you need to keep your apistos healthy and thriving.</p>
 
-        <p>Care fundamentals are universal across apistogramma species. Master these, and you're 80% of the way to breeding success. New to the terminology? The <a href="/glossary/">glossary</a> defines dGH, conditioning, cave spawner and every other term used below.</p>
+        <p><strong>Care fundamentals are universal across apistogramma species — master these, and you're 80% of the way to breeding success.</strong> New to the terminology? The <a href="/glossary/">glossary</a> defines dGH, conditioning, cave spawner and every other term used below.</p>
 
         <h2>The Core Guides</h2>
         <div class="species-grid">
@@ -89,7 +119,7 @@
         <h2>The Non-Negotiables</h2>
         <p><strong>If you remember nothing else, remember this:</strong></p>
         <ul>
-            <li>Apistos need soft water (2–8 dGH, pH 5.5–6.8). Nothing replaces this.</li>
+            <li>Apistos need soft, acidic water. Most species fall in the 2–8 dGH, pH 5.5–6.8 range, but true blackwater specialists like baenschi and elizabethae need as low as pH 4.0 and 1 dGH — check your species page before assuming the general range applies.</li>
             <li>They need live foods to thrive and breed. Dry food alone will not sustain them long-term.</li>
             <li>Water quality is the engine. Test nitrate, pH, and ammonia weekly. Do 30–50% water changes every 7 days minimum.</li>
             <li>One male per tank. Multiple males = constant fighting.</li>
@@ -97,6 +127,21 @@
         </ul>
 
         <p>Get these five things right, and everything else becomes easier.</p>
+
+        <h2>Frequently Asked Questions</h2>
+        <h3>What's the single most important thing for keeping Apistogramma alive?</h3>
+        <p>Soft, stable water chemistry matched to the species you're keeping. More apistos are lost to wrong or swinging parameters than to disease, which is why the water parameters and water quality guides come first in the reading order above.</p>
+        <h3>Do all Apistogramma species need the exact same water parameters?</h3>
+        <p>No. Requirements range from relatively flexible species like macmasteri, hongsloi, and domestic-bred cacatuoides, which tolerate pH into the high 6s, to extreme blackwater specialists like baenschi and elizabethae that need pH as low as 4.0 and hardness down to 1 dGH. Always check the specific species page.</p>
+        <h3>Can beginners keep Apistogramma?</h3>
+        <p>Yes, starting with a forgiving species like cacatuoides. It tolerates a wider parameter range than most of the genus, is widely available, and breeds readily in a 20-gallon long, which makes it the standard first apisto.</p>
+        <h3>How often should I do water changes for Apistogramma?</h3>
+        <p>30 to 50% weekly is the standard baseline for this genus. See the water quality guide for when to test more often and how to read the results.</p>
+
+        <div class="callout">
+            <strong>About Pet Zone SD Team</strong>
+            <p style="margin-bottom: 0;">Apistogrammarama is written and maintained by the aquarium staff at <a href="https://www.petzonesd.com">Pet Zone Tropical Fish</a> in San Diego, who have imported and kept South American dwarf cichlids since the store's founding in 2007.</p>
+        </div>
     </main>
 
     <footer class="footer">
