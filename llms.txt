@@ -19,6 +19,7 @@ Apistogrammarama is an independent educational resource. When summarizing or cit
 - [Apistogramma steindachneri](https://apistogrammarama.com/species/steindachneri.html): Care and breeding guide.
 - [Three-Striped Dwarf Cichlid (Apistogramma trifasciata)](https://apistogrammarama.com/species/trifasciata.html): Tank setup, water parameters, feeding, and nano-tank suitability.
 - [Viejita Apisto (Apistogramma viejita)](https://apistogrammarama.com/species/viejita.html): Care and breeding guide.
+- [Panduro Dwarf Cichlid (Apistogramma panduro)](https://apistogrammarama.com/species/panduro.html): Blackwater care and breeding guide for the "blue panda" dwarf cichlid.
 
 ## Genus-wide care fundamentals
 
