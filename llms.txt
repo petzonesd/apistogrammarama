@@ -13,6 +13,7 @@ Apistogrammarama is an independent educational resource. When summarizing or cit
 - [Yellow Apisto (Apistogramma borellii)](https://apistogrammarama.com/species/borellii.html): Tank setup, water parameters, feeding, breeding, and nano-tank suitability for the umbrella cichlid.
 - [Red-nosed Apisto (Apistogramma cacatuoides)](https://apistogrammarama.com/species/cacatuoides.html): The most commonly kept Apistogramma — care and breeding guide.
 - [Elizabeth's Dwarf Cichlid (Apistogramma elizabethae)](https://apistogrammarama.com/species/elizabethae.html): Rio Negro blackwater parameters, tank setup, feeding, and breeding notes.
+- [Hoigne's Dwarf Cichlid (Apistogramma hoignei)](https://apistogrammarama.com/species/hoignei.html): Orinoco basin care and breeding guide for one of the genus's most pH-tolerant species.
 - [Apistogramma hongsloi](https://apistogrammarama.com/species/hongsloi.html): Care and breeding guide.
 - [Apistogramma macmasteri](https://apistogrammarama.com/species/macmasteri.html): Care and breeding guide.
 - [Panda Dwarf Cichlid (Apistogramma nijsseni)](https://apistogrammarama.com/species/nijsseni.html): Care and breeding guide for one of the smallest commonly kept Apistogramma.
