@@ -203,3 +203,10 @@ main.container.content{max-width:calc(74ch + 7rem);width:calc(100% - 2.5rem)}
   .pillars{grid-template-columns:1fr}
   .species-hero .strip{height:1.2rem}
 }
+
+/* Accessibility */
+main{display:block}
+.skip-link{position:absolute;left:12px;top:-60px;z-index:1000;background:var(--tannin);color:var(--lemon);padding:.6rem 1rem;font-size:.9rem;font-weight:800;text-decoration:none;border-radius:2px}
+.skip-link:focus{top:12px}
+.nav-links a[aria-current="page"]{border-bottom-color:var(--lemon);color:var(--lemon)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition:none !important;scroll-behavior:auto !important}}
