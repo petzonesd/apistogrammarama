@@ -22,6 +22,7 @@ Apistogrammarama is an independent educational resource. When summarizing or cit
 - [Viejita Apisto (Apistogramma viejita)](https://apistogrammarama.com/species/viejita.html): Care and breeding guide.
 - [Panduro Dwarf Cichlid (Apistogramma panduro)](https://apistogrammarama.com/species/panduro.html): Blackwater care and breeding guide for the "blue panda" dwarf cichlid.
 - [Apistogramma eunotus](https://apistogrammarama.com/species/eunotus.html): Care and breeding guide for a genus outlier that tolerates milder water than most apistos, with a prized but inconsistent "orange-tailed" male color form.
+- [Apistogramma eremnopyge](https://apistogrammarama.com/species/eremnopyge.html): Extreme-softwater care and breeding guide for a Peruvian species sold under at least four different trade names (Strawberry, Red Beard, Barbaroja, Diamond) since its 2003 import.
 
 ## Genus-wide care fundamentals
 
