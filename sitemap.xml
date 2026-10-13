@@ -8,7 +8,7 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/species/</loc>
-        <lastmod>2026-10-12</lastmod>
+        <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -116,7 +116,13 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/species/barlowi.html</loc>
-        <lastmod>2026-10-12</lastmod>
+        <lastmod>2026-10-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.apistogrammarama.com/species/megastoma.html</loc>
+        <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -164,7 +170,7 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/breeding/</loc>
-        <lastmod>2026-10-12</lastmod>
+        <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -176,13 +182,13 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/sourcing/</loc>
-        <lastmod>2026-10-11</lastmod>
+        <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/glossary/</loc>
-        <lastmod>2026-10-12</lastmod>
+        <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
