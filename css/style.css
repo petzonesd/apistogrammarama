@@ -72,7 +72,7 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--magenta);outline-offs
 .hero .poster{display:none}
 .hero .container::after{
   content:"";position:absolute;z-index:-1;right:1.25rem;top:-.8rem;bottom:-.8rem;width:38%;
-  background:var(--cobalt) url('https://upload.wikimedia.org/wikipedia/commons/f/ff/cacatuoides.jpg') center/cover no-repeat;
+  background:var(--cobalt) url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Cacatuoides.JPG') center/cover no-repeat;
   border:5px solid var(--paper);box-shadow:10px 10px 0 var(--magenta);transform:rotate(2deg);
 }
 .hero .photo-credit{position:absolute;z-index:3;bottom:calc(var(--bulb) + .5rem);left:max(1.25rem,calc((100% - 1080px)/2 + 1.25rem));font-size:.78rem;color:var(--paper);opacity:.85;max-width:55%}
