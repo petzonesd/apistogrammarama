@@ -32,6 +32,7 @@ Apistogrammarama is an independent educational resource. When summarizing or cit
 - [Apistogramma uaupesi](https://apistogrammarama.com/species/uaupesi.html): Care and breeding guide for an upper-Rio-Negro blackwater species with a lyre-shaped tail and sailfin dorsal, and the genus's most frequent mislabeling match for its close relative A. iniridae.
 - [Apistogramma pertensis](https://apistogrammarama.com/species/pertensis.html): Care and breeding guide for the Amazon dwarf cichlid, one of the genus's most widely distributed species in the wild (lower Rio Negro and Amazon-Solimões mainstem) yet one of the rarest in the aquarium trade.
 - [Apistogramma norberti](https://apistogrammarama.com/species/norberti.html): Care and breeding guide for a Peruvian species traded for years as "großmaul" (bigmouth) before its 1991 description, with a taxonomic placement still unresolved between two species groups.
+- [Apistogramma pantalone](https://apistogrammarama.com/species/pantalone.html): Care and breeding guide for a tiny Peruvian dwarf cichlid named after the Commedia dell'Arte character Pantalone, a taxonomic cousin of nijsseni from fast-flowing streams rather than still blackwater.
 
 ## Genus-wide care fundamentals
 
