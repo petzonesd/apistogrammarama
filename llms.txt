@@ -39,6 +39,7 @@ Apistogrammarama is an independent educational resource. When summarizing or cit
 - [Apistogramma hippolytae](https://apistogrammarama.com/species/hippolytae.html): Care and breeding guide for a Rio Negro species named after Hippolyta, queen of the Amazons in Greek mythology — a name FishBase says has no special meaning for the fish, which sits in the same taxonomic species group as this site's own A. steindachneri.
 - [Apistogramma alacrina](https://apistogrammarama.com/species/alacrina.html): Care and breeding guide for a Colombian species Kullander formally described in 2004, three decades after introducing the aquarium trade's "Rotpunkt" form — without ever confirming they're the same fish; still sold today as the tentatively labeled "cf. alacrina 'D18.'"
 - [Apistogramma commbrae](https://apistogrammarama.com/species/commbrae.html): Care and breeding guide for the oldest formally described species on this site (1906), under a name that may be a transcription slip of the locality-based name its describer's colleague had intended first; unusually cold-tolerant for the genus.
+- [Apistogramma paulmuelleri](https://apistogrammarama.com/species/paulmuelleri.html): Care and breeding guide for a Loreto, Peru species traded under at least seven different names for roughly 30 years — misidentified, nicknamed "Masken" and "Apache" — before its 2013 description; IUCN Data Deficient with documented habitat loss at its type locality.
 
 ## Genus-wide care fundamentals
 
