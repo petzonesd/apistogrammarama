@@ -46,6 +46,7 @@ Apistogrammarama is an independent educational resource. When summarizing or cit
 - [Apistogramma allpahuayo](https://apistogrammarama.com/species/allpahuayo.html): Care and breeding guide for a Peruvian sibling species of this site's own cacatuoides, sold under the wrong name for at least 17 years before its 2012 scientific description told the two apart; the hybridization risk between them is unusually high.
 - [Apistogramma linkei](https://apistogrammarama.com/species/linkei.html): Care and breeding guide for a scarce Bolivian dwarf cichlid named in 1985 alongside A. staecki, each honoring the aquarist who collected it together with the other — a reciprocal dedication confirmed by the ETYFish Project.
 - [Apistogramma staecki](https://apistogrammarama.com/species/staecki.html): Care and breeding guide for linkei's reciprocal naming partner, described five pages apart in the same 1985 paper; despite the shared dedication it falls in a different taxonomic group (Cacatuoides, not Regani) and has never been evaluated by the IUCN.
+- [Apistogramma gossei](https://apistogrammarama.com/species/gossei.html): Care and breeding guide for a scarce French Guiana/Brazil-border dwarf cichlid named for Belgian ichthyologist Jean-Pierre Gosse; the sixth confirmed member of this site's "Regani" taxonomic group, with sources genuinely disagreeing on its IUCN status.
 
 ## Genus-wide care fundamentals
 
