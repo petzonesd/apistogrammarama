@@ -56,7 +56,7 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/species/steindachneri.html</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -230,7 +230,7 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/species/allpahuayo.html</loc>
-        <lastmod>2026-10-31</lastmod>
+        <lastmod>2026-11-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -242,7 +242,7 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/species/staecki.html</loc>
-        <lastmod>2026-11-07</lastmod>
+        <lastmod>2026-11-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -278,6 +278,36 @@
     </url>
     <url>
         <loc>https://www.apistogrammarama.com/species/kullanderi.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.apistogrammarama.com/species/juruensis.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.apistogrammarama.com/species/velifera.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.apistogrammarama.com/species/ortmanni.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.apistogrammarama.com/species/cruzi.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.apistogrammarama.com/species/taeniata.html</loc>
         <lastmod>2026-11-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
